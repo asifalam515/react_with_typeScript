@@ -1,10 +1,10 @@
-import { ReactNode } from "react";
+import { FC, type ReactNode } from "react";
 
 type courseGoalType = {
   title: string;
   children: ReactNode;
 };
-const CourseGoal = ({ title, children }: courseGoalType) => {
+const CourseGoal: FC<courseGoalType> = ({ title, children }) => {
   return (
     <article>
       <div>
