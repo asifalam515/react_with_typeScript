@@ -1,10 +1,8 @@
-const CourseGoal = ({
-  title,
-  description,
-}: {
+type courseGoalType = {
   title: string;
   description: string;
-}) => {
+};
+const CourseGoal = ({ title, description }: courseGoalType) => {
   return (
     <article>
       <div>
