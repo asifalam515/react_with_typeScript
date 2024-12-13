@@ -4,7 +4,12 @@ import CourseGoal from "./components/CourseGoal";
 function App() {
   return (
     <>
-      <CourseGoal></CourseGoal>
+      <div className="border-2 border-sky-500">
+        <CourseGoal
+          title="Learn React with TS"
+          description="learning for the improvement"
+        ></CourseGoal>
+      </div>
     </>
   );
 }
