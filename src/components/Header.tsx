@@ -28,10 +28,15 @@ const Header = ({ image, children }: HeaderProps) => {
     cancelButtonAriaLabel: "Thumbs down",
   });
   Swal.fire({
-  title: "Good job!",
-  text: "You clicked the button!",
-  icon: "success"
-});
+    title: "Good job!",
+    text: "You clicked the button!",
+    icon: "success",
+  });
+  Swal.fire({
+    title: "Good job!",
+    text: "You clicked the button!",
+    icon: "success",
+  });
   return (
     <div>
       <img className="w-80 h-80" src={image.src} alt={image.alt} />
